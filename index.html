@@ -11,6 +11,38 @@
     <h2>REQUISITION FROM</h2>
     </center> 
     <p>Indian Railway</p>
-    <p>If you are a Medical Practitioner, Please Tick in the Box(you could be of help in an Emergency)</p>
+    <div>If you are a Medical Practitioner, Please Tick in the Box(you could be of help in an Emergency)<input type="checkbox" value="yes"></div>
+    <div>If you want Sr.Citizen concession, please write Yes/No in box if Yes, Please carry a proof of 
+        age during the journey to avoid inconvenience of penal charting under extant Railway Rules <input type="checkbox" value="yes">
+    </div>
+    <div>Do you want to be upgraded without any extra charge? Write YES/No in the box (If this option 
+        is not exercise, full fare paying passengers may be upgraded automatically) <input type="checkbox">
+    </div>
+    <p>
+        <label for="trainname">Train Name & No.:</label>
+        <input type="text" id="trainname" name="trainname" placeholder="Enter Train name/no." required >
+    </p>
+        <label for="dateofjourney">Date of Journey:</label>
+        <input type="text" id="dateofjourney" name="dateofjourney" placeholder="Enter Date" required >
+    <p>
+    <p>
+        <label for="seatno">Seat No.</label>
+        <select name="seat" id="seatno">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+    </p>
+    <p>
+        <label for="stationfrom">Statio From:</label>
+        <input type="text" id="stationfrom" name="stationfrom" placeholder="Enter station name" required > 
+        <label for="tostation">To Statio:</label>
+        <input type="text" id="tostation" name="tostation" placeholder="Enter station name" required >
+    </p>
+
+    
 </body>
 </html>
